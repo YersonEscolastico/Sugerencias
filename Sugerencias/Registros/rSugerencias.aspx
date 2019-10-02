@@ -28,7 +28,7 @@
 
 
                         <%--Fecha--%>
-                        <div class="col-md-3 col-md-offset-1">
+                        <div class="col-md-3 col-md-3-offset-3">
                             <asp:Label Text="Fecha" runat="server" />
                             <asp:TextBox ID="FechaTextBox" class="form-control input-sm" TextMode="Date" runat="server"></asp:TextBox>
                         </div>

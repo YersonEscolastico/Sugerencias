@@ -11,6 +11,6 @@ namespace DAL
     public class Contexto : DbContext
     {
         public DbSet<Sugerencias> Sugerencias { get; set; }
-        public Contexto() : base("ConStr") { }
+        public Contexto() : base("SugerenciasDB") { }
     }
 }
